@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A minimal personal portfolio for writing, work, and personal projects."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+
+    <header class="site-header" aria-label="Site header">
+      <a class="brand" href="#content" data-i18n="brand">Your Name</a>
+      <nav class="top-links" aria-label="Primary navigation">
+        <a href="#work" data-i18n="navWork">Work</a>
+        <a href="#writing" data-i18n="navWriting">Writing</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <div class="language-switch" aria-label="Language switch">
+          <button type="button" class="language-option is-active" data-lang="en">EN</button>
+          <span aria-hidden="true">/</span>
+          <button type="button" class="language-option" data-lang="zh">中文</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="content" class="page-shell">
+      <article class="main-column">
+        <section class="intro" aria-labelledby="page-title">
+          <p class="eyebrow" data-i18n="eyebrow">Personal archive</p>
+          <h1 id="page-title" data-i18n="title">Portfolio</h1>
+          <p class="lede" data-i18n-html="lede">
+            I am building a public home for my work, writing, and independent
+            projects. This page is intentionally simple: a readable record before
+            it becomes a larger website.
+          </p>
+        </section>
+
+        <section class="prose-section" id="work" aria-labelledby="work-title">
+          <h2 id="work-title">
+            <a href="#work" data-i18n="workTitle">Work</a>
+          </h2>
+          <ul class="archive-list" data-list="work"></ul>
+        </section>
+
+        <section class="prose-section" id="writing" aria-labelledby="writing-title">
+          <h2 id="writing-title">
+            <a href="#writing" data-i18n="writingTitle">Writing</a>
+          </h2>
+          <ul class="archive-list" data-list="writing"></ul>
+        </section>
+
+        <section class="prose-section" id="personal" aria-labelledby="personal-title">
+          <h2 id="personal-title">
+            <a href="#personal" data-i18n="personalTitle">Personal</a>
+          </h2>
+          <ul class="archive-list" data-list="personal"></ul>
+        </section>
+      </article>
+
+      <aside class="side-column" id="about" aria-labelledby="about-title">
+        <section class="about-panel">
+          <h2 id="about-title">
+            <a href="#about" data-i18n="aboutTitle">About me</a>
+          </h2>
+          <div class="avatar" aria-label="Initials avatar">YN</div>
+          <p data-i18n="aboutBody">
+            Hey, I am Your Name. I care about thoughtful software, clear writing,
+            and small systems that compound over time.
+          </p>
+          <hr />
+          <p class="social-links" aria-label="Social links">
+            <a href="mailto:hello@example.com" data-i18n="emailLink">Email</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://github.com/" rel="noreferrer" data-i18n="githubLink">GitHub</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://www.linkedin.com/" rel="noreferrer" data-i18n="linkedinLink">LinkedIn</a>
+            <span aria-hidden="true">·</span>
+            <a href="https://x.com/" rel="noreferrer" data-i18n="xLink">X</a>
+          </p>
+        </section>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <span data-i18n="footerText">Built locally first. Domain and Cloudflare later.</span>
+        <span class="year" aria-label="Current year"></span>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
