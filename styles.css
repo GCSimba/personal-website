@@ -291,6 +291,8 @@ h2 a:hover {
 }
 
 .site-footer {
+  display: grid;
+  place-items: center;
   margin-top: 4.5rem;
   padding-block: 2.2rem 2.5rem;
   border-top: 1px solid #d6d6d0;
@@ -306,10 +308,12 @@ h2 a:hover {
 
 .footer-signature {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: baseline;
   gap: 0.55rem;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .last-updated {
