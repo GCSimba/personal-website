@@ -291,17 +291,29 @@ h2 a:hover {
 }
 
 .site-footer {
-  padding-block: 4rem 2rem;
-  color: #9a9a91;
-  font-size: 0.9rem;
+  margin-top: 4.5rem;
+  padding-block: 2.2rem 2.5rem;
+  border-top: 1px solid #d6d6d0;
+  color: var(--fg);
+  font-size: 0.98rem;
+  font-weight: 560;
+  text-align: center;
 }
 
 .site-footer p {
   margin: 0;
 }
 
-.year::before {
-  content: " · ";
+.footer-signature {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  gap: 0.55rem;
+  flex-wrap: wrap;
+}
+
+.last-updated {
+  margin-left: 0.25rem;
 }
 
 @media (max-width: 760px) {
@@ -354,5 +366,20 @@ h2 a:hover {
 
   h2 {
     margin-top: 2.6rem;
+  }
+
+  .site-footer {
+    margin-top: 3.5rem;
+    padding-block: 1.8rem 2rem;
+    font-size: 0.92rem;
+  }
+
+  .footer-divider {
+    display: none;
+  }
+
+  .footer-signature {
+    flex-direction: column;
+    gap: 0.15rem;
   }
 }

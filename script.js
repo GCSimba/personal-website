@@ -19,7 +19,7 @@ const content = {
     githubLink: "GitHub",
     linkedinLink: "LinkedIn",
     xLink: "X",
-    footerText: "Built locally first. Domain and Cloudflare later.",
+    lastUpdated: "Last updated:",
     work: [
       {
         title: "Personal website",
@@ -95,7 +95,7 @@ const content = {
     githubLink: "GitHub",
     linkedinLink: "LinkedIn",
     xLink: "X",
-    footerText: "先在本地搭好。域名和 Cloudflare 后续接上。",
+    lastUpdated: "最后更新：",
     work: [
       {
         title: "个人网站",
@@ -158,7 +158,7 @@ const languageButtons = document.querySelectorAll("[data-lang]");
 const textNodes = document.querySelectorAll("[data-i18n]");
 const htmlNodes = document.querySelectorAll("[data-i18n-html]");
 const listNodes = document.querySelectorAll("[data-list]");
-const yearNode = document.querySelector(".year");
+const lastUpdatedNode = document.querySelector(".last-updated");
 
 function renderList(node, items) {
   node.innerHTML = items
@@ -213,8 +213,12 @@ languageButtons.forEach((button) => {
   });
 });
 
-if (yearNode) {
-  yearNode.textContent = new Date().getFullYear();
+if (lastUpdatedNode) {
+  const now = new Date();
+  const month = String(now.getMonth() + 1).padStart(2, "0");
+  const updated = `${now.getFullYear()}-${month}`;
+  lastUpdatedNode.dateTime = updated;
+  lastUpdatedNode.textContent = updated;
 }
 
 setLanguage(localStorage.getItem(storageKey) || "en");
