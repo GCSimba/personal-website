@@ -1,153 +1,89 @@
 const content = {
   en: {
     htmlLang: "en",
-    brand: "Your Name",
-    navWork: "Work",
-    navWriting: "Writing",
+    pageTitle: "Wennan Cao / Cao Wennan",
+    description:
+      "Personal website of Wennan Cao, focusing on AI Agent systems, LLM training, algorithm architecture optimization, model deployment, and AI engineering.",
+    brand: "Wennan Cao",
+    navFocus: "Focus",
     navAbout: "About",
-    eyebrow: "Personal archive",
-    title: "Portfolio",
+    eyebrow: "AI Engineer · Shanghai",
+    title: "Wennan Cao",
     lede:
-      'I am building a public home for my <a href="#work">work</a>, <a href="#writing">writing</a>, and independent projects. This page is intentionally simple: a readable record before it becomes a larger website.',
-    workTitle: "Work",
-    writingTitle: "Writing",
-    personalTitle: "Personal",
+      "I am an AI Engineer focused on AI Agent systems, LLM training, and practical AI engineering. My interests include agent system design, algorithm architecture optimization, model deployment, and AI-assisted productivity systems. This website is a personal space for technical notes, engineering practices, and long-term explorations in AI.",
+    focusTitle: "Technical focus",
     aboutTitle: "About me",
     aboutBody:
-      "Hey, I am Your Name. I care about thoughtful software, clear writing, and small systems that compound over time.",
-    emailLink: "Email",
-    githubLink: "GitHub",
-    linkedinLink: "LinkedIn",
-    xLink: "X",
+      "<p>I am Wennan Cao, an AI Engineer focused on AI Agent systems, LLM training, and production-oriented AI engineering. I am interested in combining LLMs, tool use, workflow orchestration, knowledge management, and engineering systems to build intelligent systems that are useful, iterative, and scalable.</p><p>I also work on architecture optimization for applied machine learning, including model structure, training strategies, inference pipelines, quantization, deployment acceleration, and the coordination between algorithms and engineering systems. I care not only about isolated model performance, but about turning model capabilities into reliable, reusable systems for real tasks.</p>",
     lastUpdated: "Last updated:",
-    work: [
+    focus: [
       {
-        title: "Personal website",
-        href: "#content",
-        meta: "2026",
-        body: "A minimal archive for projects, writing, and public notes. Built as a static page first so it can move easily to Cloudflare Pages later.",
+        title: "AI Agent System Design",
+        href: "#focus",
+        meta: "AI Agent / LLM / System Design",
+        body: "Designing reliable AI Agent systems through task decomposition, tool use, context management, memory, workflow orchestration, and result validation.",
       },
       {
-        title: "Selected project",
-        href: "#work",
-        meta: "Case study",
-        body: "Replace this with a project that shows your taste, role, constraints, and measurable outcome.",
+        title: "LLM Training and Fine-tuning",
+        href: "#focus",
+        meta: "LLM / Training / Fine-tuning",
+        body: "Exploring data construction, training strategies, model adaptation, and task-specific optimization so that language models can better serve practical applications.",
       },
       {
-        title: "Professional experience",
-        href: "#about",
-        meta: "Background",
-        body: "Use this line for your current role, past work, research, freelance practice, or a concise career summary.",
-      },
-    ],
-    writing: [
-      {
-        title: "Notes on building a personal website",
-        href: "#writing",
-        meta: "Draft",
-        body: "A future essay about turning scattered work into a calm, durable public record.",
+        title: "Algorithm Architecture Optimization",
+        href: "#focus",
+        meta: "Model Architecture / Optimization / Inference",
+        body: "Improving model structure, inference efficiency, deployment compatibility, and system integration to make model capabilities more stable and efficient in real applications.",
       },
       {
-        title: "What I am learning now",
-        href: "#writing",
-        meta: "Log",
-        body: "A lightweight space for current interests, technical notes, and experiments worth revisiting.",
-      },
-      {
-        title: "Reading list",
-        href: "#writing",
-        meta: "Collection",
-        body: "Books, articles, talks, and tools that are shaping how you think.",
-      },
-    ],
-    personal: [
-      {
-        title: "Small tools",
-        href: "#personal",
-        meta: "Experiments",
-        body: "Tiny utilities, scripts, automations, and weekend ideas that may become larger projects.",
-      },
-      {
-        title: "Now page",
-        href: "#personal",
-        meta: "Current",
-        body: "A short record of what you are focused on this month.",
+        title: "Model Deployment and Runtime Optimization",
+        href: "#focus",
+        meta: "Model Deployment / Quantization / ONNX / TensorRT",
+        body: "Building the engineering path from experimentation to production, including compression, quantization, inference acceleration, model serving, and runtime optimization.",
       },
     ],
   },
   zh: {
     htmlLang: "zh-CN",
-    brand: "你的名字",
-    navWork: "作品",
-    navWriting: "写作",
+    pageTitle: "曹文南 / Wennan Cao",
+    description:
+      "曹文南的个人主页，记录 AI Agent 系统、大模型训练、算法架构优化、模型部署与 AI 工程实践。",
+    brand: "曹文南",
+    navFocus: "技术方向",
     navAbout: "关于",
-    eyebrow: "个人档案",
-    title: "作品集",
+    eyebrow: "AI Engineer · 上海",
+    title: "曹文南",
     lede:
-      '我正在搭建一个属于自己的公开主页，用来整理<a href="#work">作品</a>、<a href="#writing">写作</a>和个人项目。这个版本刻意保持简单，先成为一份耐读、可靠、后续好扩展的记录。',
-    workTitle: "作品",
-    writingTitle: "写作",
-    personalTitle: "个人项目",
+      "我是一名专注于 AI Agent 系统、大模型训练与 AI 工程实践的 AI Engineer。我的兴趣包括智能体系统设计、算法架构优化、模型部署，以及 AI 辅助的生产力系统。这个网站用于整理我的技术笔记、工程实践和对 AI 的长期探索。",
+    focusTitle: "技术兴趣与近况",
     aboutTitle: "关于我",
     aboutBody:
-      "你好，我是你的名字。我关注有思考的软件、清晰的表达，以及那些会随着时间慢慢复利的小系统。",
-    emailLink: "邮箱",
-    githubLink: "GitHub",
-    linkedinLink: "LinkedIn",
-    xLink: "X",
+      "<p>我是曹文南，一名关注 AI Agent 系统、大模型训练与工程化落地的 AI Engineer。我的技术兴趣主要集中在如何将 LLM、工具调用、工作流编排、知识管理和工程系统结合起来，构建可用、可迭代、可扩展的智能系统。</p><p>除了 AI Agent 系统本身，我也关注算法模型在实际应用中的架构优化，包括模型结构改进、训练策略优化、推理链路优化、量化压缩、部署加速，以及算法能力与工程系统之间的协同设计。相比只关注单点模型效果，我更重视模型能力如何在真实任务中稳定运行，并最终转化为可复用的系统能力。</p>",
     lastUpdated: "最后更新：",
-    work: [
+    focus: [
       {
-        title: "个人网站",
-        href: "#content",
-        meta: "2026",
-        body: "一个极简的个人档案，用来放项目、文章和公开笔记。先做成静态页面，之后可以很轻松地部署到 Cloudflare Pages。",
+        title: "AI Agent 系统设计",
+        href: "#focus",
+        meta: "AI Agent / LLM / 系统设计",
+        body: "关注如何设计可靠的 AI Agent 系统，包括任务拆解、工具调用、上下文管理、记忆机制、工作流编排和结果校验。",
       },
       {
-        title: "精选项目",
-        href: "#work",
-        meta: "案例",
-        body: "这里可以替换成最能代表你的项目，写清楚你的角色、限制条件、审美判断和实际结果。",
+        title: "大模型训练与微调",
+        href: "#focus",
+        meta: "LLM / 训练 / 微调",
+        body: "关注大模型训练与微调方法，包括数据构建、训练策略、模型适配和任务效果优化，使模型能力能够更好地服务具体应用场景。",
       },
       {
-        title: "职业经历",
-        href: "#about",
-        meta: "背景",
-        body: "这里可以放当前角色、过往工作、研究经历、自由职业实践，或者一句简洁的职业概述。",
-      },
-    ],
-    writing: [
-      {
-        title: "关于搭建个人网站的笔记",
-        href: "#writing",
-        meta: "草稿",
-        body: "未来可以写一篇文章，记录如何把分散的作品整理成稳定、安静、长期可维护的公开档案。",
+        title: "算法架构优化",
+        href: "#focus",
+        meta: "模型架构 / 优化 / 推理",
+        body: "关注算法模型在结构设计、推理效率、部署适配和系统协同方面的优化，使模型能力能够更稳定、更高效地服务真实应用。",
       },
       {
-        title: "我最近在学什么",
-        href: "#writing",
-        meta: "日志",
-        body: "放当前兴趣、技术笔记和那些值得回头看的实验。",
-      },
-      {
-        title: "阅读清单",
-        href: "#writing",
-        meta: "集合",
-        body: "整理正在影响你思考方式的书、文章、演讲和工具。",
-      },
-    ],
-    personal: [
-      {
-        title: "小工具",
-        href: "#personal",
-        meta: "实验",
-        body: "一些工具、脚本、自动化和周末想法，未来也许会长成更完整的项目。",
-      },
-      {
-        title: "Now 页面",
-        href: "#personal",
-        meta: "当前",
-        body: "简短记录这个月正在关注什么。",
+        title: "模型部署与运行时优化",
+        href: "#focus",
+        meta: "模型部署 / 量化 / ONNX / TensorRT",
+        body: "关注模型从实验到部署之间的工程链路，包括模型压缩、量化、推理加速、服务化部署和运行时优化。",
       },
     ],
   },
@@ -158,6 +94,9 @@ const languageButtons = document.querySelectorAll("[data-lang]");
 const textNodes = document.querySelectorAll("[data-i18n]");
 const htmlNodes = document.querySelectorAll("[data-i18n-html]");
 const listNodes = document.querySelectorAll("[data-list]");
+const descriptionNode = document.querySelector('meta[name="description"]');
+const ogTitleNode = document.querySelector('meta[property="og:title"]');
+const ogDescriptionNode = document.querySelector('meta[property="og:description"]');
 const lastUpdatedNode = document.querySelector(".last-updated");
 
 function renderList(node, items) {
@@ -178,6 +117,10 @@ function setLanguage(lang) {
   const dictionary = content[lang] || content.en;
 
   document.documentElement.lang = dictionary.htmlLang;
+  document.title = dictionary.pageTitle;
+  descriptionNode?.setAttribute("content", dictionary.description);
+  ogTitleNode?.setAttribute("content", dictionary.pageTitle);
+  ogDescriptionNode?.setAttribute("content", dictionary.description);
 
   textNodes.forEach((node) => {
     const key = node.dataset.i18n;

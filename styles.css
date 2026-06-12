@@ -155,7 +155,7 @@ button {
 }
 
 .intro {
-  margin-bottom: 3rem;
+  margin-bottom: 3.2rem;
 }
 
 .eyebrow {
@@ -247,27 +247,17 @@ h2 a:hover {
 
 .avatar {
   float: left;
-  display: grid;
-  width: 3.6rem;
-  height: 3.6rem;
-  margin: 0.25rem 1.1rem 0.4rem 0;
-  place-items: center;
+  display: block;
+  width: 4.5rem;
+  height: 4.5rem;
+  margin: 0.25rem 1.1rem 0.45rem 0;
   border: 1px solid #e2e2dc;
   border-radius: 999px;
-  background: var(--soft-bg);
-  color: var(--accent);
-  font-family:
-    ui-monospace,
-    "SFMono-Regular",
-    Menlo,
-    Consolas,
-    monospace;
-  font-size: 0.9rem;
-  font-weight: 650;
-  line-height: 1;
+  object-fit: cover;
+  object-position: 50% 24%;
 }
 
-.about-panel p {
+.about-copy p {
   margin-block: 0 1.1rem;
 }
 
@@ -384,6 +374,7 @@ h2 a:hover {
 
   .footer-signature {
     flex-direction: column;
+    align-items: center;
     gap: 0.15rem;
   }
 }
