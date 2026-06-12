@@ -88,15 +88,9 @@ button {
 .site-header {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 1rem;
   padding-block: 2rem 3rem;
-}
-
-.brand {
-  color: var(--fg);
-  font-weight: 520;
-  text-decoration: none;
 }
 
 .top-links {
@@ -156,12 +150,6 @@ button {
 
 .intro {
   margin-bottom: 3.2rem;
-}
-
-.eyebrow {
-  margin: 0 0 0.65rem;
-  color: var(--muted);
-  font-size: 0.88rem;
 }
 
 h1,
@@ -318,7 +306,7 @@ h2 a:hover {
 
   .top-links {
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: flex-start;
     row-gap: 0.45rem;
   }
 
@@ -344,8 +332,7 @@ h2 a:hover {
   }
 
   .site-header {
-    display: grid;
-    gap: 0.75rem;
+    justify-content: flex-start;
   }
 
   .top-links {

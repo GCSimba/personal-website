@@ -4,13 +4,11 @@ const content = {
     pageTitle: "Wennan Cao / Cao Wennan",
     description:
       "Personal website of Wennan Cao, focusing on AI Agent systems, LLM training, algorithm architecture optimization, model deployment, and AI engineering.",
-    brand: "Wennan Cao",
     navFocus: "Focus",
     navAbout: "About",
-    eyebrow: "AI Engineer · Shanghai",
     title: "Wennan Cao",
     lede:
-      "I am an AI Engineer focused on AI Agent systems, LLM training, and practical AI engineering. My interests include agent system design, algorithm architecture optimization, model deployment, and AI-assisted productivity systems. This website is a personal space for technical notes, engineering practices, and long-term explorations in AI.",
+      "I am an AI Engineer focused on AI Agent systems, LLM training, and practical AI engineering. My interests include agent system design, algorithm architecture optimization, model deployment, and AI-assisted productivity systems.",
     focusTitle: "Technical focus",
     aboutTitle: "About me",
     aboutBody:
@@ -48,13 +46,11 @@ const content = {
     pageTitle: "曹文南 / Wennan Cao",
     description:
       "曹文南的个人主页，记录 AI Agent 系统、大模型训练、算法架构优化、模型部署与 AI 工程实践。",
-    brand: "曹文南",
     navFocus: "技术方向",
     navAbout: "关于",
-    eyebrow: "AI Engineer · 上海",
     title: "曹文南",
     lede:
-      "我是一名专注于 AI Agent 系统、大模型训练与 AI 工程实践的 AI Engineer。我的兴趣包括智能体系统设计、算法架构优化、模型部署，以及 AI 辅助的生产力系统。这个网站用于整理我的技术笔记、工程实践和对 AI 的长期探索。",
+      "我是一名专注于 AI Agent 系统、大模型训练与 AI 工程实践的 AI Engineer。我的兴趣包括智能体系统设计、算法架构优化、模型部署，以及 AI 辅助的生产力系统。",
     focusTitle: "技术兴趣与近况",
     aboutTitle: "关于我",
     aboutBody:
