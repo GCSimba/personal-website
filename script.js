@@ -12,7 +12,7 @@ const content = {
     focusTitle: "Technical focus",
     researchTitle: "Research",
     patentsIntro:
-      "Contributed to 15 invention patent projects involving deep learning and large language model applications.",
+      "15 invention patents related to deep learning and large language model applications, including 4 granted patents.",
     aboutTitle: "About me",
     aboutBody:
       "<p>I am Wennan Cao, an AI Engineer focused on AI Agent systems, LLM training, and production-oriented AI engineering. I am interested in combining LLMs, tool use, workflow orchestration, knowledge management, and engineering systems to build intelligent systems that are useful, iterative, and scalable.</p><p>I also work on architecture optimization for applied machine learning, including model structure, training strategies, inference pipelines, quantization, deployment acceleration, and the coordination between algorithms and engineering systems. I care not only about isolated model performance, but about turning model capabilities into reliable, reusable systems for real tasks.</p>",
@@ -48,41 +48,37 @@ const content = {
         title:
           "RSDF-AM-LSTM: Regional Scale Division Rainfall Forecasting Using Attention and LSTM",
         href: "https://doi.org/10.1145/3498333",
-        meta: "ACM/IMS Transactions on Data Science · SCI",
+        meta: "ACM/IMS Transactions on Data Science",
       },
       {
         title:
           "Surface and High-altitude Combined Rainfall Forecasting Using Convolutional Neural Network",
         href: "https://doi.org/10.1007/s12083-020-00938-x",
-        meta: "Peer-to-Peer Networking and Applications · SCI",
+        meta: "Peer-to-Peer Networking and Applications",
       },
       {
         title:
           "Quality Assurance Technologies of Big Data Applications: A Systematic Literature Review",
         href: "https://doi.org/10.3390/app10228052",
-        meta: "Applied Sciences · SCI",
+        meta: "Applied Sciences",
       },
     ],
     patents: [
       {
         title: "CN111160526B",
         href: "https://patents.google.com/patent/CN111160526B/zh",
-        meta: "Granted invention patent",
       },
       {
         title: "CN111815037B",
         href: "https://patents.google.com/patent/CN111815037B/zh",
-        meta: "Granted invention patent",
       },
       {
         title: "CN110390347B",
         href: "https://patents.google.com/patent/CN110390347B/zh",
-        meta: "Granted invention patent",
       },
       {
         title: "CN110728411B",
         href: "https://patents.google.com/patent/CN110728411B/zh",
-        meta: "Granted invention patent",
       },
     ],
   },
@@ -98,7 +94,7 @@ const content = {
       "我是一名专注于 AI Agent 系统、大模型训练与 AI 工程实践的 AI Engineer。我的兴趣包括智能体系统设计、算法架构优化、模型部署，以及 AI 辅助的生产力系统。",
     focusTitle: "技术兴趣与近况",
     researchTitle: "Research",
-    patentsIntro: "参与 15 项深度学习与大语言模型应用相关的发明专利项目。",
+    patentsIntro: "15 项深度学习与大模型应用相关的发明专利，4 件已授权。",
     aboutTitle: "关于我",
     aboutBody:
       "<p>我是曹文南，一名关注 AI Agent 系统、大模型训练与工程化落地的 AI Engineer。我的技术兴趣主要集中在如何将 LLM、工具调用、工作流编排、知识管理和工程系统结合起来，构建可用、可迭代、可扩展的智能系统。</p><p>除了 AI Agent 系统本身，我也关注算法模型在实际应用中的架构优化，包括模型结构改进、训练策略优化、推理链路优化、量化压缩、部署加速，以及算法能力与工程系统之间的协同设计。相比只关注单点模型效果，我更重视模型能力如何在真实任务中稳定运行，并最终转化为可复用的系统能力。</p>",
@@ -134,41 +130,37 @@ const content = {
         title:
           "RSDF-AM-LSTM: Regional Scale Division Rainfall Forecasting Using Attention and LSTM",
         href: "https://doi.org/10.1145/3498333",
-        meta: "ACM/IMS Transactions on Data Science · SCI",
+        meta: "ACM/IMS Transactions on Data Science",
       },
       {
         title:
           "Surface and High-altitude Combined Rainfall Forecasting Using Convolutional Neural Network",
         href: "https://doi.org/10.1007/s12083-020-00938-x",
-        meta: "Peer-to-Peer Networking and Applications · SCI",
+        meta: "Peer-to-Peer Networking and Applications",
       },
       {
         title:
           "Quality Assurance Technologies of Big Data Applications: A Systematic Literature Review",
         href: "https://doi.org/10.3390/app10228052",
-        meta: "Applied Sciences · SCI",
+        meta: "Applied Sciences",
       },
     ],
     patents: [
       {
         title: "CN111160526B",
         href: "https://patents.google.com/patent/CN111160526B/zh",
-        meta: "发明专利授权",
       },
       {
         title: "CN111815037B",
         href: "https://patents.google.com/patent/CN111815037B/zh",
-        meta: "发明专利授权",
       },
       {
         title: "CN110390347B",
         href: "https://patents.google.com/patent/CN110390347B/zh",
-        meta: "发明专利授权",
       },
       {
         title: "CN110728411B",
         href: "https://patents.google.com/patent/CN110728411B/zh",
-        meta: "发明专利授权",
       },
     ],
   },
