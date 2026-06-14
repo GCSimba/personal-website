@@ -117,7 +117,7 @@ const content = {
       },
       {
         title:
-          "2022: Runner-up in Xiaomi Software Development Competition, Best Code Award",
+          "2022: Runner-up in Xiaomi Software Competition, Best Code Award",
         emphasis: false,
       },
       {
@@ -129,8 +129,7 @@ const content = {
         emphasis: false,
       },
       {
-        title:
-          "2018–2021: Outstanding Graduate Thesis and Outstanding Graduate",
+        title: "2018–2021: Outstanding Graduate Thesis & Graduate",
         emphasis: false,
       },
     ],
@@ -249,7 +248,7 @@ const content = {
         emphasis: false,
       },
       {
-        title: "2022 年：小米软件开发大赛亚军、最佳代码奖",
+        title: "2022 年：小米软件大赛亚军、最佳代码奖",
         emphasis: false,
       },
       {
