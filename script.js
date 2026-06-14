@@ -3,13 +3,18 @@ const content = {
     htmlLang: "en",
     pageTitle: "Wennan Cao / Cao Wennan",
     description:
-      "Personal website of Wennan Cao, focusing on AI Agent systems, LLM training, algorithm architecture optimization, model deployment, and AI engineering.",
+      "Personal website of Wennan Cao, focusing on AI Agent systems, LLM training, algorithm architecture optimization, model deployment, research publications, patents, and AI engineering.",
     navFocus: "Focus",
     navAbout: "About",
     title: "Wennan Cao",
     lede:
       "I am an AI Engineer focused on AI Agent systems, LLM training, and practical AI engineering. My interests include agent system design, algorithm architecture optimization, model deployment, and AI-assisted productivity systems.",
     focusTitle: "Technical focus",
+    researchTitle: "Research",
+    publicationsTitle: "Publications",
+    patentsTitle: "Patents",
+    patentsIntro:
+      "Contributed to 15 invention patent projects involving deep learning and large language model applications.",
     aboutTitle: "About me",
     aboutBody:
       "<p>I am Wennan Cao, an AI Engineer focused on AI Agent systems, LLM training, and production-oriented AI engineering. I am interested in combining LLMs, tool use, workflow orchestration, knowledge management, and engineering systems to build intelligent systems that are useful, iterative, and scalable.</p><p>I also work on architecture optimization for applied machine learning, including model structure, training strategies, inference pipelines, quantization, deployment acceleration, and the coordination between algorithms and engineering systems. I care not only about isolated model performance, but about turning model capabilities into reliable, reusable systems for real tasks.</p>",
@@ -40,18 +45,64 @@ const content = {
         body: "Building the engineering path from experimentation to production, including compression, quantization, inference acceleration, model serving, and runtime optimization.",
       },
     ],
+    publications: [
+      {
+        title:
+          "RSDF-AM-LSTM: Regional Scale Division Rainfall Forecasting Using Attention and LSTM",
+        href: "https://doi.org/10.1145/3498333",
+        meta: "ACM/IMS Transactions on Data Science · SCI",
+      },
+      {
+        title:
+          "Surface and High-altitude Combined Rainfall Forecasting Using Convolutional Neural Network",
+        href: "https://doi.org/10.1007/s12083-020-00938-x",
+        meta: "Peer-to-Peer Networking and Applications · SCI",
+      },
+      {
+        title:
+          "Quality Assurance Technologies of Big Data Applications: A Systematic Literature Review",
+        href: "https://doi.org/10.3390/app10228052",
+        meta: "Applied Sciences · SCI",
+      },
+    ],
+    patents: [
+      {
+        title: "CN111160526B",
+        href: "https://patents.google.com/patent/CN111160526B/zh",
+        meta: "Granted invention patent",
+      },
+      {
+        title: "CN111815037B",
+        href: "https://patents.google.com/patent/CN111815037B/zh",
+        meta: "Granted invention patent",
+      },
+      {
+        title: "CN110390347B",
+        href: "https://patents.google.com/patent/CN110390347B/zh",
+        meta: "Granted invention patent",
+      },
+      {
+        title: "CN110728411B",
+        href: "https://patents.google.com/patent/CN110728411B/zh",
+        meta: "Granted invention patent",
+      },
+    ],
   },
   zh: {
     htmlLang: "zh-CN",
     pageTitle: "曹文南 / Wennan Cao",
     description:
-      "曹文南的个人主页，记录 AI Agent 系统、大模型训练、算法架构优化、模型部署与 AI 工程实践。",
+      "曹文南的个人主页，记录 AI Agent 系统、大模型训练、算法架构优化、模型部署、研究论文、发明专利与 AI 工程实践。",
     navFocus: "技术方向",
     navAbout: "关于",
     title: "曹文南",
     lede:
       "我是一名专注于 AI Agent 系统、大模型训练与 AI 工程实践的 AI Engineer。我的兴趣包括智能体系统设计、算法架构优化、模型部署，以及 AI 辅助的生产力系统。",
     focusTitle: "技术兴趣与近况",
+    researchTitle: "研究成果",
+    publicationsTitle: "论文",
+    patentsTitle: "专利",
+    patentsIntro: "参与 15 项深度学习与大语言模型应用相关的发明专利项目。",
     aboutTitle: "关于我",
     aboutBody:
       "<p>我是曹文南，一名关注 AI Agent 系统、大模型训练与工程化落地的 AI Engineer。我的技术兴趣主要集中在如何将 LLM、工具调用、工作流编排、知识管理和工程系统结合起来，构建可用、可迭代、可扩展的智能系统。</p><p>除了 AI Agent 系统本身，我也关注算法模型在实际应用中的架构优化，包括模型结构改进、训练策略优化、推理链路优化、量化压缩、部署加速，以及算法能力与工程系统之间的协同设计。相比只关注单点模型效果，我更重视模型能力如何在真实任务中稳定运行，并最终转化为可复用的系统能力。</p>",
@@ -82,6 +133,48 @@ const content = {
         body: "关注模型从实验到部署之间的工程链路，包括模型压缩、量化、推理加速、服务化部署和运行时优化。",
       },
     ],
+    publications: [
+      {
+        title:
+          "RSDF-AM-LSTM: Regional Scale Division Rainfall Forecasting Using Attention and LSTM",
+        href: "https://doi.org/10.1145/3498333",
+        meta: "ACM/IMS Transactions on Data Science · SCI",
+      },
+      {
+        title:
+          "Surface and High-altitude Combined Rainfall Forecasting Using Convolutional Neural Network",
+        href: "https://doi.org/10.1007/s12083-020-00938-x",
+        meta: "Peer-to-Peer Networking and Applications · SCI",
+      },
+      {
+        title:
+          "Quality Assurance Technologies of Big Data Applications: A Systematic Literature Review",
+        href: "https://doi.org/10.3390/app10228052",
+        meta: "Applied Sciences · SCI",
+      },
+    ],
+    patents: [
+      {
+        title: "CN111160526B",
+        href: "https://patents.google.com/patent/CN111160526B/zh",
+        meta: "发明专利授权",
+      },
+      {
+        title: "CN111815037B",
+        href: "https://patents.google.com/patent/CN111815037B/zh",
+        meta: "发明专利授权",
+      },
+      {
+        title: "CN110390347B",
+        href: "https://patents.google.com/patent/CN110390347B/zh",
+        meta: "发明专利授权",
+      },
+      {
+        title: "CN110728411B",
+        href: "https://patents.google.com/patent/CN110728411B/zh",
+        meta: "发明专利授权",
+      },
+    ],
   },
 };
 
@@ -97,15 +190,23 @@ const lastUpdatedNode = document.querySelector(".last-updated");
 
 function renderList(node, items) {
   node.innerHTML = items
-    .map(
-      (item) => `
+    .map((item) => {
+      const externalAttributes = item.href.startsWith("#")
+        ? ""
+        : ' rel="noreferrer"';
+      const meta = item.meta
+        ? `<span class="meta">(${item.meta})</span>`
+        : "";
+      const body = item.body ? `<p>${item.body}</p>` : "";
+
+      return `
         <li>
-          <strong><a href="${item.href}">${item.title}</a></strong>
-          <span class="meta">(${item.meta})</span>
-          <p>${item.body}</p>
+          <strong><a href="${item.href}"${externalAttributes}>${item.title}</a></strong>
+          ${meta}
+          ${body}
         </li>
-      `,
-    )
+      `;
+    })
     .join("");
 }
 
