@@ -125,11 +125,11 @@ const content = {
         emphasis: false,
       },
       {
-        title: "2018–2021: National Scholarship during graduate study",
+        title: "2021: Outstanding Graduate Thesis & Graduate",
         emphasis: false,
       },
       {
-        title: "2018–2021: Outstanding Graduate Thesis & Graduate",
+        title: "2021: National Scholarship and Special-class Scholarship",
         emphasis: false,
       },
     ],
@@ -145,7 +145,7 @@ const content = {
     lede:
       "我是一名专注于 AI Agent 系统、大模型训练与 AI 工程实践的 AI Engineer。我的兴趣包括智能体系统设计、算法架构优化、模型部署，以及 AI 辅助的生产力系统。",
     focusTitle: "技术兴趣与近况",
-    researchTitle: "Research",
+    researchTitle: "研究成果",
     patentsIntro: "15 项深度学习与大模型应用相关的发明专利，4 件已授权。",
     credentialsTitle: "认证与荣誉",
     aboutTitle: "关于我",
@@ -256,11 +256,11 @@ const content = {
         emphasis: false,
       },
       {
-        title: "2018–2021 年：研究生国家奖学金",
+        title: "2021 年：优秀毕业论文、优秀毕业生",
         emphasis: false,
       },
       {
-        title: "2018–2021 年：优秀毕业论文、优秀毕业生",
+        title: "2021 年：研究生国家奖学金，特等奖学金",
         emphasis: false,
       },
     ],
