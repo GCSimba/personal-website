@@ -11,8 +11,6 @@ const content = {
       "I am an AI Engineer focused on AI Agent systems, LLM training, and practical AI engineering. My interests include agent system design, algorithm architecture optimization, model deployment, and AI-assisted productivity systems.",
     focusTitle: "Technical focus",
     researchTitle: "Research",
-    publicationsTitle: "Publications",
-    patentsTitle: "Patents",
     patentsIntro:
       "Contributed to 15 invention patent projects involving deep learning and large language model applications.",
     aboutTitle: "About me",
@@ -99,9 +97,7 @@ const content = {
     lede:
       "我是一名专注于 AI Agent 系统、大模型训练与 AI 工程实践的 AI Engineer。我的兴趣包括智能体系统设计、算法架构优化、模型部署，以及 AI 辅助的生产力系统。",
     focusTitle: "技术兴趣与近况",
-    researchTitle: "研究成果",
-    publicationsTitle: "论文",
-    patentsTitle: "专利",
+    researchTitle: "Research",
     patentsIntro: "参与 15 项深度学习与大语言模型应用相关的发明专利项目。",
     aboutTitle: "关于我",
     aboutBody:
