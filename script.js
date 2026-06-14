@@ -85,10 +85,12 @@ const content = {
     certifications: [
       {
         title: "Azure AI Engineer Associate",
+        emphasis: false,
       },
       {
         title:
           "Intermediate Engineer Qualification, Chinese Academy of Sciences",
+        emphasis: false,
       },
     ],
     honors: [
@@ -127,11 +129,8 @@ const content = {
         emphasis: false,
       },
       {
-        title: "2018–2021: Outstanding Graduate Thesis",
-        emphasis: false,
-      },
-      {
-        title: "2018–2021: Outstanding Graduate",
+        title:
+          "2018–2021: Outstanding Graduate Thesis and Outstanding Graduate",
         emphasis: false,
       },
     ],
@@ -221,9 +220,11 @@ const content = {
     certifications: [
       {
         title: "Azure AI Engineer Associate 微软 AI 工程师中级认证",
+        emphasis: false,
       },
       {
         title: "中科院中级工程师职称",
+        emphasis: false,
       },
     ],
     honors: [
@@ -260,11 +261,7 @@ const content = {
         emphasis: false,
       },
       {
-        title: "2018–2021 年：优秀毕业论文",
-        emphasis: false,
-      },
-      {
-        title: "2018–2021 年：优秀毕业生",
+        title: "2018–2021 年：优秀毕业论文、优秀毕业生",
         emphasis: false,
       },
     ],
