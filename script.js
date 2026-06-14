@@ -14,8 +14,6 @@ const content = {
     patentsIntro:
       "15 invention patents related to deep learning and large language model applications, including 4 granted patents.",
     credentialsTitle: "Certifications & Honors",
-    certificationsTitle: "Certifications",
-    honorsTitle: "Honors",
     aboutTitle: "About me",
     aboutBody:
       "<p>I am Wennan Cao, an AI Engineer focused on AI Agent systems, LLM training, and production-oriented AI engineering. I am interested in combining LLMs, tool use, workflow orchestration, knowledge management, and engineering systems to build intelligent systems that are useful, iterative, and scalable.</p><p>I also work on architecture optimization for applied machine learning, including model structure, training strategies, inference pipelines, quantization, deployment acceleration, and the coordination between algorithms and engineering systems. I care not only about isolated model performance, but about turning model capabilities into reliable, reusable systems for real tasks.</p>",
@@ -95,44 +93,46 @@ const content = {
     ],
     honors: [
       {
-        title: "2024 & 2023",
-        body: "Excellence Award in Xiaomi CTF Competition, Security and Privacy Tracks",
+        title:
+          "2024 & 2023: Excellence Award in Xiaomi CTF Competition, Security and Privacy Tracks",
+        emphasis: false,
       },
       {
-        title: "2024",
-        body: "Qinglan Mentor for New Graduates",
+        title: "2024: Qinglan Mentor for New Graduates",
+        emphasis: false,
       },
       {
-        title: "2023",
-        body: "Xiaomi Quarterly Outstanding Employee Award",
+        title: "2023: Xiaomi Quarterly Outstanding Employee Award",
+        emphasis: false,
       },
       {
-        title: "2023",
-        body: "AI Competition Champion",
+        title: "2023: AI Competition Champion",
+        emphasis: false,
       },
       {
-        title: "2023",
-        body: "Annual Regional Special Contribution Award",
+        title: "2023: Annual Regional Special Contribution Award",
+        emphasis: false,
       },
       {
-        title: "2022",
-        body: "Runner-up in Xiaomi Software Development Competition, Best Code Award",
+        title:
+          "2022: Runner-up in Xiaomi Software Development Competition, Best Code Award",
+        emphasis: false,
       },
       {
-        title: "2022",
-        body: "Excellence Award in Data Mining Competition",
+        title: "2022: Excellence Award in Data Mining Competition",
+        emphasis: false,
       },
       {
-        title: "2018–2021",
-        body: "National Scholarship during graduate study",
+        title: "2018–2021: National Scholarship during graduate study",
+        emphasis: false,
       },
       {
-        title: "2018–2021",
-        body: "Outstanding Graduate Thesis",
+        title: "2018–2021: Outstanding Graduate Thesis",
+        emphasis: false,
       },
       {
-        title: "2018–2021",
-        body: "Outstanding Graduate",
+        title: "2018–2021: Outstanding Graduate",
+        emphasis: false,
       },
     ],
   },
@@ -150,8 +150,6 @@ const content = {
     researchTitle: "Research",
     patentsIntro: "15 项深度学习与大模型应用相关的发明专利，4 件已授权。",
     credentialsTitle: "认证与荣誉",
-    certificationsTitle: "认证",
-    honorsTitle: "荣誉",
     aboutTitle: "关于我",
     aboutBody:
       "<p>我是曹文南，一名关注 AI Agent 系统、大模型训练与工程化落地的 AI Engineer。我的技术兴趣主要集中在如何将 LLM、工具调用、工作流编排、知识管理和工程系统结合起来，构建可用、可迭代、可扩展的智能系统。</p><p>除了 AI Agent 系统本身，我也关注算法模型在实际应用中的架构优化，包括模型结构改进、训练策略优化、推理链路优化、量化压缩、部署加速，以及算法能力与工程系统之间的协同设计。相比只关注单点模型效果，我更重视模型能力如何在真实任务中稳定运行，并最终转化为可复用的系统能力。</p>",
@@ -230,44 +228,44 @@ const content = {
     ],
     honors: [
       {
-        title: "2024 & 2023 年",
-        body: "小米 CTF 黑客大赛安全、隐私双赛道优胜奖",
+        title: "2024 & 2023 年：小米 CTF 黑客大赛安全、隐私双赛道优胜奖",
+        emphasis: false,
       },
       {
-        title: "2024 年",
-        body: "应届生青蓝导师",
+        title: "2024 年：应届生青蓝导师",
+        emphasis: false,
       },
       {
-        title: "2023 年",
-        body: "小米集团第二季度优秀员工",
+        title: "2023 年：小米集团第二季度优秀员工",
+        emphasis: false,
       },
       {
-        title: "2023 年",
-        body: "AI 大赛冠军",
+        title: "2023 年：AI 大赛冠军",
+        emphasis: false,
       },
       {
-        title: "2023 年",
-        body: "年度区域特殊贡献奖",
+        title: "2023 年：年度区域特殊贡献奖",
+        emphasis: false,
       },
       {
-        title: "2022 年",
-        body: "小米软件开发大赛亚军、最佳代码奖",
+        title: "2022 年：小米软件开发大赛亚军、最佳代码奖",
+        emphasis: false,
       },
       {
-        title: "2022 年",
-        body: "数据挖掘大赛优秀奖",
+        title: "2022 年：数据挖掘大赛优秀奖",
+        emphasis: false,
       },
       {
-        title: "2018–2021 年",
-        body: "研究生国家奖学金",
+        title: "2018–2021 年：研究生国家奖学金",
+        emphasis: false,
       },
       {
-        title: "2018–2021 年",
-        body: "优秀毕业论文",
+        title: "2018–2021 年：优秀毕业论文",
+        emphasis: false,
       },
       {
-        title: "2018–2021 年",
-        body: "优秀毕业生",
+        title: "2018–2021 年：优秀毕业生",
+        emphasis: false,
       },
     ],
   },
@@ -291,6 +289,7 @@ function renderList(node, items) {
       const title = item.href
         ? `<a href="${item.href}"${externalAttributes}>${item.title}</a>`
         : item.title;
+      const titleTag = item.emphasis === false ? "span" : "strong";
       const meta = item.meta
         ? `<span class="meta">(${item.meta})</span>`
         : "";
@@ -298,7 +297,7 @@ function renderList(node, items) {
 
       return `
         <li>
-          <strong>${title}</strong>
+          <${titleTag}>${title}</${titleTag}>
           ${meta}
           ${body}
         </li>
