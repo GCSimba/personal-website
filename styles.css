@@ -148,10 +148,6 @@ button {
   min-width: 0;
 }
 
-.intro {
-  margin-bottom: 3.2rem;
-}
-
 h1,
 h2,
 p {
@@ -159,7 +155,7 @@ p {
 }
 
 h1 {
-  margin: 0 0 1rem;
+  margin: 0;
   color: var(--fg);
   font-size: 2.05rem;
   font-weight: 560;
@@ -181,14 +177,6 @@ h2 a {
 
 h2 a:hover {
   color: var(--accent);
-}
-
-.lede {
-  margin: 0;
-  max-width: 62ch;
-  color: var(--muted);
-  font-size: 1.08rem;
-  line-height: 1.72;
 }
 
 .prose-section:first-of-type h2,
@@ -366,10 +354,6 @@ h2 a:hover {
     justify-content: flex-start;
     gap: 0.78rem;
     font-size: 0.9rem;
-  }
-
-  .intro {
-    margin-bottom: 2.5rem;
   }
 
   h2 {

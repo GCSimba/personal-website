@@ -7,8 +7,6 @@ const content = {
     navFocus: "Focus",
     navAbout: "About",
     title: "Wennan Cao",
-    lede:
-      "I am an AI Engineer focused on AI Agent systems, LLM training, and practical AI engineering. My interests include agent system design, algorithm architecture optimization, model deployment, and AI-assisted productivity systems.",
     focusTitle: "Technical focus",
     researchTitle: "Research",
     patentsIntro:
@@ -16,7 +14,7 @@ const content = {
     credentialsTitle: "Certifications & Honors",
     aboutTitle: "About me",
     aboutBody:
-      "<p>I am Wennan Cao, an AI Engineer focused on AI Agent systems, LLM training, and production-oriented AI engineering. I am interested in combining LLMs, tool use, workflow orchestration, knowledge management, and engineering systems to build intelligent systems that are useful, iterative, and scalable.</p><p>I also work on architecture optimization for applied machine learning, including model structure, training strategies, inference pipelines, quantization, deployment acceleration, and the coordination between algorithms and engineering systems. I care not only about isolated model performance, but about turning model capabilities into reliable, reusable systems for real tasks.</p>",
+      "<p>I focus on AI agents, large language models, and production AI systems. My work connects LLMs with tools, workflows, knowledge systems, and deployment infrastructure to solve real-world tasks.</p><p>I also work on training, inference, quantization, and deployment optimization, with the goal of turning AI capabilities into reliable, reusable, and scalable system components.</p>",
     lastUpdated: "Last updated:",
     focus: [
       {
@@ -96,7 +94,7 @@ const content = {
     honors: [
       {
         title:
-          "2024 & 2023: Excellence Award in Xiaomi CTF Competition, Security and Privacy Tracks",
+          "2024: Excellence Award in Xiaomi CTF Competition, Security and Privacy Tracks",
         emphasis: false,
       },
       {
@@ -108,11 +106,11 @@ const content = {
         emphasis: false,
       },
       {
-        title: "2023: AI Competition Champion",
+        title: "2023: Xiaomi AI Competition Champion",
         emphasis: false,
       },
       {
-        title: "2023: Annual Regional Special Contribution Award",
+        title: "2023: Xiaomi Annual Regional Special Contribution Award",
         emphasis: false,
       },
       {
@@ -142,15 +140,13 @@ const content = {
     navFocus: "技术方向",
     navAbout: "关于",
     title: "曹文南",
-    lede:
-      "我是一名专注于 AI Agent 系统、大模型训练与 AI 工程实践的 AI Engineer。我的兴趣包括智能体系统设计、算法架构优化、模型部署，以及 AI 辅助的生产力系统。",
     focusTitle: "技术兴趣与近况",
     researchTitle: "研究成果",
     patentsIntro: "15 项深度学习与大模型应用相关的发明专利，4 件已授权。",
     credentialsTitle: "认证与荣誉",
     aboutTitle: "关于我",
     aboutBody:
-      "<p>我是曹文南，一名关注 AI Agent 系统、大模型训练与工程化落地的 AI Engineer。我的技术兴趣主要集中在如何将 LLM、工具调用、工作流编排、知识管理和工程系统结合起来，构建可用、可迭代、可扩展的智能系统。</p><p>除了 AI Agent 系统本身，我也关注算法模型在实际应用中的架构优化，包括模型结构改进、训练策略优化、推理链路优化、量化压缩、部署加速，以及算法能力与工程系统之间的协同设计。相比只关注单点模型效果，我更重视模型能力如何在真实任务中稳定运行，并最终转化为可复用的系统能力。</p>",
+      "<p>我的兴趣聚焦于 AI Agent 系统、大语言模型与工程化 AI 系统构建。我关注如何将 LLM、工具调用、工作流编排、知识系统和部署基础设施结合起来，使模型能力能够服务真实任务。</p><p>相比单点模型效果，我更重视算法架构优化、训练策略、推理效率、量化压缩和部署加速，并关注如何将 AI 能力沉淀为可靠、可复用、可扩展的系统能力。</p>",
     lastUpdated: "最后更新：",
     focus: [
       {
@@ -228,7 +224,7 @@ const content = {
     ],
     honors: [
       {
-        title: "2024 & 2023 年：小米 CTF 黑客大赛安全、隐私双赛道优胜奖",
+        title: "2024 年：小米 CTF 黑客大赛安全、隐私双赛道优胜奖",
         emphasis: false,
       },
       {
@@ -240,11 +236,11 @@ const content = {
         emphasis: false,
       },
       {
-        title: "2023 年：AI 大赛冠军",
+        title: "2023 年：小米 AI 大赛冠军",
         emphasis: false,
       },
       {
-        title: "2023 年：年度区域特殊贡献奖",
+        title: "2023 年：小米年度区域特殊贡献奖",
         emphasis: false,
       },
       {
