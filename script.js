@@ -93,8 +93,7 @@ const content = {
     ],
     honors: [
       {
-        title:
-          "2024: Excellence Award in Xiaomi CTF Competition, Security & Privacy Tracks",
+        title: "2024: Excellence Award in Xiaomi CTF Competition",
         emphasis: false,
       },
       {
