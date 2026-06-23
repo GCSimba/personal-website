@@ -12,6 +12,7 @@ const content = {
     patentsIntro:
       "15 invention patents related to deep learning and large language model applications, including 4 granted patents.",
     credentialsTitle: "Certifications & Honors",
+    notesEntry: 'More technical notes: <a href="/notes/">Notes</a>',
     aboutTitle: "About me",
     aboutBody:
       "<p>I focus on AI agents, large language models, and production AI systems. My work connects LLMs with tools, workflows, knowledge systems, and deployment infrastructure to solve real-world tasks.</p><p>I also work on training, inference, quantization, and deployment optimization, with the goal of turning AI capabilities into reliable, reusable, and scalable system components.</p>",
@@ -143,6 +144,7 @@ const content = {
     researchTitle: "研究成果",
     patentsIntro: "15 项深度学习与大模型应用相关的发明专利，4 件已授权。",
     credentialsTitle: "认证与荣誉",
+    notesEntry: '更多技术笔记：<a href="/notes/">Notes</a>',
     aboutTitle: "关于我",
     aboutBody:
       "<p>我的兴趣聚焦于 AI Agent 系统、大语言模型与工程化 AI 系统构建。我关注如何将 LLM、工具调用、工作流编排、知识系统和部署基础设施结合起来，使模型能力能够服务真实任务。</p><p>相比单点模型效果，我更重视算法架构优化、训练策略、推理效率、量化压缩和部署加速，并关注如何将 AI 能力沉淀为可靠、可复用、可扩展的系统能力。</p>",

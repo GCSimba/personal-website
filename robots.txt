@@ -1,0 +1,5 @@
+# Public personal website content is available for search and AI crawlers.
+User-agent: *
+Allow: /
+
+Sitemap: https://wennancao.com/sitemap.xml

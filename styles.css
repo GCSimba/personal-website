@@ -5,6 +5,7 @@
   --muted: #73736b;
   --soft: #efefeb;
   --soft-bg: #f8f8f5;
+  --hairline: #deded7;
   --accent: #1c6b48;
   --accent-soft: #e7f0eb;
   --selection: #dfe9e3;
@@ -34,7 +35,7 @@ body {
     "Segoe UI",
     sans-serif;
   font-size: 16px;
-  line-height: 1.68;
+  line-height: 1.66;
   letter-spacing: 0;
 }
 
@@ -139,7 +140,7 @@ button {
 .page-shell {
   display: grid;
   grid-template-columns: minmax(0, 2fr) minmax(220px, 1fr);
-  gap: 4.5rem;
+  gap: 4rem;
   align-items: start;
 }
 
@@ -157,13 +158,13 @@ p {
 h1 {
   margin: 0;
   color: var(--fg);
-  font-size: 2.05rem;
-  font-weight: 560;
+  font-size: 2.22rem;
+  font-weight: 520;
   line-height: 1.18;
 }
 
 h2 {
-  margin: 3rem 0 1rem;
+  margin: 3.25rem 0 1.05rem;
   color: var(--fg);
   font-size: 1.05rem;
   font-weight: 560;
@@ -186,13 +187,26 @@ h2 a:hover {
 
 .archive-list {
   display: grid;
-  gap: 0.86rem;
+  gap: 0.95rem;
+  list-style: none;
   margin: 0;
-  padding-left: 1.15rem;
+  padding-left: 0;
 }
 
 .archive-list li {
-  padding-left: 0.15rem;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.archive-list li::before {
+  position: absolute;
+  top: 0.78em;
+  left: 0;
+  width: 3px;
+  height: 3px;
+  border-radius: 999px;
+  background: #b9bab2;
+  content: "";
 }
 
 .archive-list strong {
@@ -209,7 +223,7 @@ h2 a:hover {
 }
 
 .research-list {
-  gap: 0.72rem;
+  gap: 0.8rem;
 }
 
 .research-intro {
@@ -218,7 +232,7 @@ h2 a:hover {
 }
 
 .compact-list {
-  gap: 0.42rem;
+  gap: 0.5rem;
 }
 
 .credentials-divider {
@@ -232,7 +246,21 @@ h2 a:hover {
 }
 
 .honors-list {
-  gap: 0.58rem;
+  gap: 0.62rem;
+}
+
+.notes-entry {
+  margin: 2.8rem 0 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.notes-entry a {
+  color: inherit;
+}
+
+.notes-entry a:hover {
+  color: var(--accent);
 }
 
 .side-column {
@@ -251,9 +279,9 @@ h2 a:hover {
 .avatar {
   float: left;
   display: block;
-  width: 4.5rem;
-  height: 4.5rem;
-  margin: 0.25rem 1.1rem 0.45rem 0;
+  width: 5rem;
+  height: 5rem;
+  margin: 0.2rem 1.15rem 0.5rem 0;
   border: 1px solid #e2e2dc;
   border-radius: 999px;
   object-fit: cover;
@@ -288,11 +316,52 @@ h2 a:hover {
   place-items: center;
   margin-top: 4.5rem;
   padding-block: 2.2rem 2.5rem;
-  border-top: 1px solid #d6d6d0;
+  border-top: 1px solid var(--hairline);
   color: var(--fg);
   font-size: 0.98rem;
-  font-weight: 560;
+  font-weight: 520;
   text-align: center;
+}
+
+.notes-page .page-shell {
+  display: block;
+  max-width: 760px;
+}
+
+.notes-page .intro {
+  margin-bottom: 2.8rem;
+}
+
+.notes-lede {
+  max-width: 62ch;
+  margin: 0.85rem 0 0;
+  color: var(--muted);
+}
+
+.notes-index {
+  margin-top: 2.4rem;
+}
+
+.notes-index h2 {
+  margin-top: 0;
+}
+
+.notes-index .archive-list {
+  gap: 1.15rem;
+}
+
+.back-link {
+  margin-top: 3rem;
+  color: var(--muted);
+  font-size: 0.94rem;
+}
+
+.back-link a {
+  color: inherit;
+}
+
+.back-link a:hover {
+  color: var(--accent);
 }
 
 .site-footer p {

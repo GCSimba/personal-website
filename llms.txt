@@ -1,0 +1,24 @@
+# Wennan Cao
+
+Wennan Cao is an AI Engineer focused on AI Agent systems, large language models, and production-oriented AI engineering.
+
+This website is a concise public profile and technical archive. It is useful for understanding Wennan's work around agent system design, LLM training and fine-tuning, algorithm architecture optimization, model deployment, and runtime optimization.
+
+## Recommended pages
+
+- https://wennancao.com/ — Main profile, technical focus, research, patents, certifications, honors, and contact links.
+- https://wennancao.com/notes/ — Lightweight index for technical notes and future writing.
+
+## Topics
+
+- AI Agent system design
+- LLM training and fine-tuning
+- Algorithm architecture optimization
+- Model deployment and runtime optimization
+- Knowledge systems and AI engineering practice
+
+## Contact
+
+- Email: wennancao61@gmail.com
+- GitHub: https://github.com/GCSimba
+- LeetCode: https://leetcode.cn/u/g1gc/
