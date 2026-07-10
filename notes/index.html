@@ -1,85 +1,48 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Technical notes by Wennan Cao on AI Agent systems, LLM training, model deployment, and AI engineering."
-    />
-    <meta property="og:title" content="Notes / Wennan Cao" />
-    <meta
-      property="og:description"
-      content="A lightweight index of technical notes by Wennan Cao."
-    />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://wennancao.com/notes/" />
-    <meta name="theme-color" content="#ffffff" />
-    <link rel="icon" href="/favicon.ico?v=20260623-round" sizes="any" />
-    <link rel="icon" type="image/png" href="/assets/favicon-32.png?v=20260623-round" />
-    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=20260623-round" />
-    <title>Notes / Wennan Cao</title>
-    <link rel="stylesheet" href="../styles.css?v=20260623-4" />
-  </head>
-  <body class="notes-page">
-    <a class="skip-link" href="#content">Skip to content</a>
-
-    <header class="site-header" aria-label="Site header">
-      <nav class="top-links" aria-label="Primary navigation">
-        <a href="/">Home</a>
-        <a href="/#focus">Focus</a>
-        <a href="/#about">About</a>
-      </nav>
-    </header>
-
-    <main id="content" class="page-shell">
-      <section class="intro" aria-labelledby="notes-title">
-        <h1 id="notes-title">Notes</h1>
-        <p class="notes-lede">
-          A lightweight index for technical notes, engineering practices, and
-          long-term explorations in AI systems.
-        </p>
-      </section>
-
-      <section class="prose-section notes-index" aria-labelledby="notes-index-title">
-        <h2 id="notes-index-title">Technical notes</h2>
-        <ul class="archive-list">
-          <li>
-            <strong>AI Agent System Design Notes</strong>
-            <span class="meta">(AI Agent / LLM / System Design)</span>
-            <p>
-              Notes on task decomposition, tool use, context management, memory,
-              workflow orchestration, and result validation.
-            </p>
-          </li>
-          <li>
-            <strong>LLM Training and Fine-tuning Notes</strong>
-            <span class="meta">(LLM / Training / Fine-tuning)</span>
-            <p>
-              Notes on data construction, training strategies, model adaptation,
-              and task-specific optimization.
-            </p>
-          </li>
-          <li>
-            <strong>Model Deployment and Runtime Optimization Notes</strong>
-            <span class="meta">(Deployment / Quantization / Runtime)</span>
-            <p>
-              Notes on compression, quantization, inference acceleration, model
-              serving, and production runtime optimization.
-            </p>
-          </li>
-        </ul>
-      </section>
-
-      <p class="back-link"><a href="/">Back to profile</a></p>
-    </main>
-
-    <footer class="site-footer">
-      <p class="footer-signature">
-        <span>© Wennan Cao</span>
-        <span class="footer-divider" aria-hidden="true">|</span>
-        <span>Last updated: <time datetime="2026-06">2026-06</time></span>
-      </p>
-    </footer>
-  </body>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="从微信读书笔记中整理、凝练并审核发布的中英双语观点卡。">
+  <meta property="og:title" content="观点卡 / Wennan Cao">
+  <meta property="og:description" content="从微信读书笔记中整理、凝练并审核发布的中英双语观点卡。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://wennancao.com/notes/">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="icon" href="/favicon.ico?v=20260706-cards" sizes="any">
+  <title>观点卡 / Wennan Cao</title>
+  <link rel="stylesheet" href="/styles.css?v=20260711-source-full">
+</head>
+<body class="notes-page">
+  <a class="skip-link" href="#content">跳到正文</a>
+  <header class="site-header" aria-label="网站页眉">
+    <nav class="top-links" aria-label="主导航"><a href="/">主页</a><a href="/notes/">观点卡</a></nav>
+    <div class="language-switch" role="group" aria-label="语言"><button type="button" data-language="zh" aria-pressed="true">中</button><button type="button" data-language="en" aria-pressed="false">EN</button></div>
+  </header>
+  <main id="content" class="page-shell">
+  <section class="intro notes-hero" aria-labelledby="notes-title">
+    <p class="eyebrow" data-lang="zh">阅读 · 思考 · 重写</p><p class="eyebrow" data-lang="en" hidden>Read · Think · Rewrite</p>
+    <h1 id="notes-title" data-lang="zh">观点卡</h1><h1 data-lang="en" hidden>Knowledge Cards</h1>
+    <p class="notes-lede" data-lang="zh">从阅读划线出发，经过整理、凝练与双语重写后留下的独立观点。</p>
+    <p class="notes-lede" data-lang="en" hidden>Independent ideas distilled, reviewed, and rewritten from reading notes.</p>
+  </section>
+  <section class="card-controls" aria-label="筛选观点卡">
+    <label><span class="sr-only">搜索观点卡</span><input id="card-search" type="search" placeholder="搜索标题、摘要或书名" autocomplete="off"></label>
+    <div class="tag-filters"><button type="button" class="tag-filter is-active" data-tag="">全部</button><button type="button" class="tag-filter" data-tag="创新">创新</button><button type="button" class="tag-filter" data-tag="思维模型">思维模型</button><button type="button" class="tag-filter" data-tag="第一性原理">第一性原理</button><button type="button" class="tag-filter" data-tag="问题定义">问题定义</button></div>
+  </section>
+  <section id="card-grid" class="knowledge-grid" aria-live="polite"><article class="knowledge-card" data-search="第一性原理不是寻找答案，而是重新定义问题 第一性原理最有价值的地方，不是把复杂问题拆成更小的零件，而是先把问题从默认叙事里拿出来，重新判断“真正要解决的是什么”。当问题被重新定义，答案空间也会随之改变。 first principles is not about finding an answer—it is about reframing the question the real value of first-principles thinking is not simply breaking a complex problem into smaller parts. it is taking the problem out of its default narrative and asking what actually needs to be solved. once the question is reframed, the space of possible answers changes with it. 马斯克第一性原理(让普通人可以学会的方法)" data-tags="思维模型|第一性原理|问题定义|创新">
+  <a class="knowledge-card-link" href="/notes/cards/first-principles-reframe-problem/">
+    <span class="card-kicker" data-lang="zh">观点卡</span><span class="card-kicker" data-lang="en" hidden>Knowledge card</span>
+    <h2 data-lang="zh">第一性原理不是寻找答案，而是重新定义问题</h2><h2 data-lang="en" hidden>First Principles Is Not About Finding an Answer—It Is About Reframing the Question</h2>
+    <p data-lang="zh">第一性原理最有价值的地方，不是把复杂问题拆成更小的零件，而是先把问题从默认叙事里拿出来，重新判断“真正要解决的是什么”。当问题被重新定义，答案空间也会随之改变。</p><p data-lang="en" hidden>The real value of first-principles thinking is not simply breaking a complex problem into smaller parts. It is taking the problem out of its default narrative and asking what actually needs to be solved. Once the question is reframed, the space of possible answers changes with it.</p>
+    <ul class="card-tags" aria-label="标签"><li>思维模型</li><li>第一性原理</li><li>问题定义</li><li>创新</li></ul>
+    <span class="card-source">马斯克第一性原理(让普通人可以学会的方法)</span>
+  </a>
+</article></section>
+  <p id="no-results" class="notes-empty" hidden>没有匹配的观点卡。</p>
+  <p class="back-link"><a href="/">← 返回主页</a></p>
+</main>
+  <footer class="site-footer"><p class="footer-signature"><span>© Wennan Cao</span><span class="footer-divider" aria-hidden="true">|</span><span>Reading notes, refined.</span></p></footer>
+  <script src="/notes/notes.js?v=20260706-cards" defer></script>
+</body>
 </html>

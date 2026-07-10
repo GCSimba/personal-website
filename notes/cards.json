@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "cards": [
+    {
+      "id": "first-principles-reframe-problem",
+      "tags": [
+        "思维模型",
+        "第一性原理",
+        "问题定义",
+        "创新"
+      ],
+      "updated_at": "2026-07-11T00:05:15+08:00",
+      "source_books": [
+        {
+          "book": "马斯克第一性原理(让普通人可以学会的方法)",
+          "author": "[韩]安有锡  著",
+          "chapters": [
+            {
+              "chapter": "序言 埃隆·马斯克颠覆性创新与成功的秘诀：第一性原理思维法",
+              "highlight_count": 2,
+              "excerpts": [
+                {
+                  "source_count": 1,
+                  "excerpt": "其核心在于基于物理学基础原理与第一性原理的思维方式。所谓第一性原理思维，是指在解决问题时，不直接接受既有前提，而是从最基本的要素出发重新推演。大多数人习惯依赖“类比推理”或“经验推演”，即主要参照过往案例或行业标杆。但马斯克会更深入地追问“为什么必须这样做”这一问题，从根源上重新审视：那些早已成为惯例的做法，在物理和逻辑层面是否真的最优？或者说，这些前提本身是否成立？"
+                },
+                {
+                  "source_count": 1,
+                  "excerpt": "所以我们也跟着这么做。但若遵循第一性原理思考，我们就能把事物拆解到最根本的本质，然后从这个本质出发，一步步进行推理。——埃隆·马斯克"
+                }
+              ]
+            },
+            {
+              "chapter": "精准界定问题的技术",
+              "highlight_count": 4,
+              "excerpts": [
+                {
+                  "source_count": 1,
+                  "excerpt": "精准界定问题的技术要运用第一性原理思维解决问题，首先必须明确问题本质，并充分审视自身持有的前提假设。人们在初次接触问题时，往往会不自觉地接受其中隐含的诸多假设，这些预设会限制思维空间，使人陷入思维定式。尤其当经验丰富或精通特定领域的人士面临新问题时，往往会基于过往类似案例进行分析，甚至直接沿用过去的成功经验或行业常规做法。这种通过寻找历史案例中的相似性来解决问题的思维方式，被称为“类比推理”。虽然类比推理能通过已验证的方式轻松找到答案，看似高效，但这种思维方式也可能阻碍我们发现新视角或提出创新解决方案。"
+                },
+                {
+                  "source_count": 1,
+                  "excerpt": "与之相对，第一性原理思维要求从一开始就以全新视角审视问题。这种方法从问题界定阶段便开始提出疑问：“我现在想当然接受的前提，真的完全合理吗？”人们常常会将自己掌握的知识误认为是客观真理，但事实上，这类知识大多是在特定时代背景与情境下形成的有限认知或假设。在第一性原理思维中，人们不会被问题的表面形态或习惯性解决方案所牵制，而是通过“解决这个问题的根本目的是什么？”这一本质性问题来界定问题。从功能视角切入时，关键在于聚焦目标功能而非形式。"
+                },
+                {
+                  "source_count": 2,
+                  "excerpt": "通过明确界定问题，将所有既有的前提假设明确列出，然后通过提出“这个假设真的正确吗”“如果没有这个前提，还能有哪些解决方案”等问题进行审视，便能检验其合理性，这样就能剔除无关信息、聚焦问题本质，进而在根本层面重新定义问题。唯有如此，才能为第一性原理思维的下一阶段（对根本要素的分析与创新性重构）奠定基础。作为第一性原理思维的起点，问题定义与前提把握的过程绝非简单澄清问题，而是为构建创新性解决方案铺平道路的关键环节。"
+                }
+              ]
+            },
+            {
+              "chapter": "特斯拉：电动汽车创新的开端",
+              "highlight_count": 1,
+              "excerpts": [
+                {
+                  "source_count": 1,
+                  "excerpt": "马斯克在分析锂离子电池组价格时发现，虽然成品价格约为每千瓦时600美元，但原材料成本仅为80美元。这表明电池成本高的大部分原因并非来自原材料本身，而是源于制造工艺有限和行业的低效率。马斯克意识到这种成本结构存在不合理性，认为可以通过彻底改变电池的制造方式来实现降本增效。"
+                }
+              ]
+            },
+            {
+              "chapter": "SpaceX：重新定义航天产业",
+              "highlight_count": 1,
+              "excerpts": [
+                {
+                  "source_count": 1,
+                  "excerpt": "马斯克的思考还促使他提出了一个更根本性的问题：“为什么火箭必须是一次性使用、用完即弃的？”当时，航天产业普遍采用“使用一级助推器后便将其直接抛弃”的模式。马斯克将这一模式比作一次性飞机，他指出：“如果飞机只用一次就扔掉，那么机票价格会高到让人望而却步。”在他看来，火箭的逻辑也是如此——如果每次使用后都要丢弃，就不可能降低成本。最终他得出结论：只有实现火箭的重复使用，才能真正带来成本上的革新。从这时起，SpaceX便开启了为实现火箭重复使用而进行的工程挑战。"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "source_label": "马斯克第一性原理(让普通人可以学会的方法)",
+      "zh_title": "第一性原理不是寻找答案，而是重新定义问题",
+      "zh_summary": "第一性原理最有价值的地方，不是把复杂问题拆成更小的零件，而是先把问题从默认叙事里拿出来，重新判断“真正要解决的是什么”。当问题被重新定义，答案空间也会随之改变。",
+      "zh_point": "我们通常以为自己在解决问题，其实很多时候只是在解决一个被继承下来的题目。行业惯例、组织流程、过往经验和他人的做法，会悄悄变成问题的边界：电动汽车为什么一定贵？火箭为什么一定一次性使用？这些问题如果沿着旧框架回答，最多只能得到渐进优化；但如果把它们拆回更底层的事实，就会发现真正的限制并不总在表面。\n\n第一性原理的第一步，因此不是“更努力地找答案”，而是暂停对题目的服从。它要求先列出自己默认接受的前提，再逐一追问：这个假设真的成立吗？如果没有这个前提，还有哪些路径？在特斯拉的例子里，昂贵的并不是“电动车”这个抽象物，而是电池材料、制造工艺、供应链效率和规模化能力之间的组合问题；在 SpaceX 的例子里，高成本也不必被理解为航天的宿命，而可以被改写为“为什么关键部件不能重复使用”。\n\n这类思考的锋利之处在于，它会把问题从“如何在现有规则内做得更好”，转成“哪些规则只是习惯，并非事实”。对个人也一样。很多困境并不是缺少技巧，而是题目设错了：把“我怎样追上别人”改成“我真正要积累什么能力”，把“怎样维持现状”改成“哪些成本不该继续支付”，答案会完全不同。重新定义问题，本身就是一次选择权的回收。",
+      "zh_takeaway": "第一性原理可以被理解为一种“拒绝自动答题”的能力：不急着证明聪明，而是先问，这道题是谁出的？题目里的前提，哪些是事实，哪些只是惯性？",
+      "zh_quote": "把事物拆解到最根本的本质，然后从这个本质出发，一步步进行推理。",
+      "en_title": "First Principles Is Not About Finding an Answer—It Is About Reframing the Question",
+      "en_summary": "The real value of first-principles thinking is not simply breaking a complex problem into smaller parts. It is taking the problem out of its default narrative and asking what actually needs to be solved. Once the question is reframed, the space of possible answers changes with it.",
+      "en_point": "We often think we are solving a problem when we are really working on a question we inherited. Industry conventions, organizational processes, past experience, and other people’s practices quietly become the problem’s boundaries: Why must electric cars be expensive? Why must rockets be single-use? If we answer within that inherited frame, we may achieve only incremental improvement. But when we break the question down to underlying facts, we often find that the real constraint is not where it first appeared to be.\n\nThe first move of first-principles thinking, then, is not “try harder to find the answer.” It is to suspend obedience to the question. List the assumptions you have accepted by default, then test them one by one: Is this assumption actually true? What paths appear if it is removed? In Tesla’s case, what was expensive was not “the electric car” as an abstract object, but a combined problem of battery materials, manufacturing, supply-chain efficiency, and scale. At SpaceX, high cost did not have to be treated as the fate of spaceflight; it could be reframed as: Why can’t critical components be reused?\n\nThat is where this form of thinking gains its edge. It turns “How can we do better within the current rules?” into “Which rules are merely habits rather than facts?” The same applies to individuals. Many difficulties do not arise from a lack of technique, but from having set the wrong question: change “How do I catch up with others?” to “What capabilities do I truly need to compound?” Change “How do I maintain the status quo?” to “Which costs should I stop paying?” The answers can be entirely different. Reframing the problem is, in itself, a recovery of choice.",
+      "en_takeaway": "First principles can be understood as the ability to refuse automatic answers: not rushing to prove cleverness, but first asking, Who wrote this question? Which assumptions in it are facts, and which are only inertia?",
+      "en_quote": "Break things down to their most fundamental nature, then reason step by step from there."
+    }
+  ]
+}
