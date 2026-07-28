@@ -470,6 +470,10 @@ h2 a:hover {
   gap: 1rem;
 }
 
+.book-grid {
+  grid-template-columns: 1fr;
+}
+
 .knowledge-card {
   min-width: 0;
 }
@@ -496,6 +500,10 @@ h2 a:hover {
   transform: translateY(-2px);
 }
 
+.book-card-link {
+  min-height: 13rem;
+}
+
 .knowledge-card h2 {
   margin: 0;
   font-size: 1.16rem;
@@ -505,6 +513,16 @@ h2 a:hover {
 .knowledge-card p {
   margin: 0.72rem 0 1rem;
   color: var(--muted);
+}
+
+.book-card h2 {
+  font-size: 1.28rem;
+}
+
+.book-author {
+  margin: 0.35rem 0 0;
+  color: #98988f;
+  font-size: 0.9rem;
 }
 
 .card-tags {
@@ -528,6 +546,13 @@ h2 a:hover {
   margin-top: 0.7rem;
   color: #98988f;
   font-size: 0.78rem;
+}
+
+.book-count {
+  margin-top: 0.85rem;
+  color: var(--accent);
+  font-size: 0.82rem;
+  font-weight: 650;
 }
 
 .notes-empty {

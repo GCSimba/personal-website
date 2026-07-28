@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="从微信读书笔记中整理、凝练并审核发布的中英双语观点卡。">
-  <meta property="og:title" content="观点卡 / Wennan Cao">
-  <meta property="og:description" content="从微信读书笔记中整理、凝练并审核发布的中英双语观点卡。">
+  <meta name="description" content="按书整理、凝练并审核发布的中英双语观点卡。">
+  <meta property="og:title" content="读书笔记 / Wennan Cao">
+  <meta property="og:description" content="按书整理、凝练并审核发布的中英双语观点卡。">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://wennancao.com/notes/">
   <meta name="theme-color" content="#ffffff">
   <link rel="icon" href="/favicon.ico?v=20260706-cards" sizes="any">
-  <title>观点卡 / Wennan Cao</title>
+  <title>读书笔记 / Wennan Cao</title>
   <link rel="stylesheet" href="/styles.css?v=20260711-source-full">
 </head>
 <body class="notes-page">
@@ -22,24 +22,35 @@
   <main id="content" class="page-shell">
   <section class="intro notes-hero" aria-labelledby="notes-title">
     <p class="eyebrow" data-lang="zh">阅读 · 思考 · 重写</p><p class="eyebrow" data-lang="en" hidden>Read · Think · Rewrite</p>
-    <h1 id="notes-title" data-lang="zh">观点卡</h1><h1 data-lang="en" hidden>Knowledge Cards</h1>
-    <p class="notes-lede" data-lang="zh">从阅读划线出发，经过整理、凝练与双语重写后留下的独立观点。</p>
-    <p class="notes-lede" data-lang="en" hidden>Independent ideas distilled, reviewed, and rewritten from reading notes.</p>
+    <h1 id="notes-title" data-lang="zh">读书笔记</h1><h1 data-lang="en" hidden>Reading Notes</h1>
+    <p class="notes-lede" data-lang="zh">先按书进入，再阅读从划线中整理出的双语观点卡。</p>
+    <p class="notes-lede" data-lang="en" hidden>Enter by book, then read bilingual knowledge cards distilled from highlights.</p>
   </section>
-  <section class="card-controls" aria-label="筛选观点卡">
-    <label><span class="sr-only">搜索观点卡</span><input id="card-search" type="search" placeholder="搜索标题、摘要或书名" autocomplete="off"></label>
-    <div class="tag-filters"><button type="button" class="tag-filter is-active" data-tag="">全部</button><button type="button" class="tag-filter" data-tag="创新">创新</button><button type="button" class="tag-filter" data-tag="思维模型">思维模型</button><button type="button" class="tag-filter" data-tag="第一性原理">第一性原理</button><button type="button" class="tag-filter" data-tag="问题定义">问题定义</button></div>
+  <section class="card-controls" aria-label="筛选书籍">
+    <label><span class="sr-only">搜索书籍</span><input id="card-search" type="search" placeholder="搜索书名、作者或主题" data-placeholder-zh="搜索书名、作者或主题" data-placeholder-en="Search books, authors, or themes" autocomplete="off"></label>
+    <div class="tag-filters"><button type="button" class="tag-filter is-active" data-tag="">全部</button><button type="button" class="tag-filter" data-tag="中产安全感">中产安全感</button><button type="button" class="tag-filter" data-tag="二次元">二次元</button><button type="button" class="tag-filter" data-tag="人口结构">人口结构</button><button type="button" class="tag-filter" data-tag="价值重估">价值重估</button><button type="button" class="tag-filter" data-tag="低欲望">低欲望</button><button type="button" class="tag-filter" data-tag="养老">养老</button><button type="button" class="tag-filter" data-tag="创新">创新</button><button type="button" class="tag-filter" data-tag="就业">就业</button><button type="button" class="tag-filter" data-tag="思维模型">思维模型</button><button type="button" class="tag-filter" data-tag="意义感">意义感</button><button type="button" class="tag-filter" data-tag="成功叙事">成功叙事</button><button type="button" class="tag-filter" data-tag="教育">教育</button><button type="button" class="tag-filter" data-tag="日本观察">日本观察</button><button type="button" class="tag-filter" data-tag="消费转型">消费转型</button><button type="button" class="tag-filter" data-tag="生活方式">生活方式</button><button type="button" class="tag-filter" data-tag="社会保障">社会保障</button><button type="button" class="tag-filter" data-tag="社会转型">社会转型</button><button type="button" class="tag-filter" data-tag="第一性原理">第一性原理</button><button type="button" class="tag-filter" data-tag="精神困境">精神困境</button><button type="button" class="tag-filter" data-tag="经济下行">经济下行</button><button type="button" class="tag-filter" data-tag="经济周期">经济周期</button><button type="button" class="tag-filter" data-tag="老龄化">老龄化</button><button type="button" class="tag-filter" data-tag="问题定义">问题定义</button><button type="button" class="tag-filter" data-tag="陪伴经济">陪伴经济</button></div>
   </section>
-  <section id="card-grid" class="knowledge-grid" aria-live="polite"><article class="knowledge-card" data-search="第一性原理不是寻找答案，而是重新定义问题 第一性原理最有价值的地方，不是把复杂问题拆成更小的零件，而是先把问题从默认叙事里拿出来，重新判断“真正要解决的是什么”。当问题被重新定义，答案空间也会随之改变。 first principles is not about finding an answer—it is about reframing the question the real value of first-principles thinking is not simply breaking a complex problem into smaller parts. it is taking the problem out of its default narrative and asking what actually needs to be solved. once the question is reframed, the space of possible answers changes with it. 马斯克第一性原理(让普通人可以学会的方法)" data-tags="思维模型|第一性原理|问题定义|创新">
-  <a class="knowledge-card-link" href="/notes/cards/first-principles-reframe-problem/">
-    <span class="card-kicker" data-lang="zh">观点卡</span><span class="card-kicker" data-lang="en" hidden>Knowledge card</span>
-    <h2 data-lang="zh">第一性原理不是寻找答案，而是重新定义问题</h2><h2 data-lang="en" hidden>First Principles Is Not About Finding an Answer—It Is About Reframing the Question</h2>
-    <p data-lang="zh">第一性原理最有价值的地方，不是把复杂问题拆成更小的零件，而是先把问题从默认叙事里拿出来，重新判断“真正要解决的是什么”。当问题被重新定义，答案空间也会随之改变。</p><p data-lang="en" hidden>The real value of first-principles thinking is not simply breaking a complex problem into smaller parts. It is taking the problem out of its default narrative and asking what actually needs to be solved. Once the question is reframed, the space of possible answers changes with it.</p>
-    <ul class="card-tags" aria-label="标签"><li>思维模型</li><li>第一性原理</li><li>问题定义</li><li>创新</li></ul>
-    <span class="card-source">马斯克第一性原理(让普通人可以学会的方法)</span>
+  <section id="card-grid" class="knowledge-grid book-grid" aria-live="polite"><article class="knowledge-card book-card" data-search="以日为镜：经济下行期穿越指南 王熙威 从《以日为镜：经济下行期穿越指南》中整理出的 5 张观点卡，围绕中产安全感、二次元、人口结构、价值重估展开。 5 knowledge cards distilled from 以日为镜：经济下行期穿越指南. 中产安全感 二次元 人口结构 价值重估 低欲望 养老 就业 意义感 成功叙事 教育 日本观察 消费转型 生活方式 社会保障 社会转型 精神困境 经济下行 经济周期 老龄化 陪伴经济" data-tags="中产安全感|二次元|人口结构|价值重估|低欲望|养老|就业|意义感|成功叙事|教育|日本观察|消费转型|生活方式|社会保障|社会转型|精神困境|经济下行|经济周期|老龄化|陪伴经济">
+  <a class="knowledge-card-link book-card-link" href="/notes/books/book-3300206286/">
+    <span class="card-kicker" data-lang="zh">书籍</span><span class="card-kicker" data-lang="en" hidden>Book</span>
+    <h2>以日为镜：经济下行期穿越指南</h2>
+    <p class="book-author">王熙威</p>
+    <p data-lang="zh">从《以日为镜：经济下行期穿越指南》中整理出的 5 张观点卡，围绕中产安全感、二次元、人口结构、价值重估展开。</p><p data-lang="en" hidden>5 knowledge cards distilled from 以日为镜：经济下行期穿越指南.</p>
+    <ul class="card-tags" aria-label="标签"><li>中产安全感</li><li>二次元</li><li>人口结构</li><li>价值重估</li><li>低欲望</li><li>养老</li><li>就业</li><li>意义感</li><li>成功叙事</li><li>教育</li><li>日本观察</li><li>消费转型</li><li>生活方式</li><li>社会保障</li><li>社会转型</li><li>精神困境</li><li>经济下行</li><li>经济周期</li><li>老龄化</li><li>陪伴经济</li></ul>
+    <span class="book-count"><span data-lang="zh">5 张观点卡</span><span data-lang="en" hidden>5 cards</span></span>
+  </a>
+</article>
+<article class="knowledge-card book-card" data-search="马斯克第一性原理(让普通人可以学会的方法) [韩]安有锡  著 从《马斯克第一性原理(让普通人可以学会的方法)》中整理出的 1 张观点卡，围绕创新、思维模型、第一性原理、问题定义展开。 1 knowledge card distilled from 马斯克第一性原理(让普通人可以学会的方法). 创新 思维模型 第一性原理 问题定义" data-tags="创新|思维模型|第一性原理|问题定义">
+  <a class="knowledge-card-link book-card-link" href="/notes/books/book-3300209718/">
+    <span class="card-kicker" data-lang="zh">书籍</span><span class="card-kicker" data-lang="en" hidden>Book</span>
+    <h2>马斯克第一性原理(让普通人可以学会的方法)</h2>
+    <p class="book-author">[韩]安有锡  著</p>
+    <p data-lang="zh">从《马斯克第一性原理(让普通人可以学会的方法)》中整理出的 1 张观点卡，围绕创新、思维模型、第一性原理、问题定义展开。</p><p data-lang="en" hidden>1 knowledge card distilled from 马斯克第一性原理(让普通人可以学会的方法).</p>
+    <ul class="card-tags" aria-label="标签"><li>创新</li><li>思维模型</li><li>第一性原理</li><li>问题定义</li></ul>
+    <span class="book-count"><span data-lang="zh">1 张观点卡</span><span data-lang="en" hidden>1 card</span></span>
   </a>
 </article></section>
-  <p id="no-results" class="notes-empty" hidden>没有匹配的观点卡。</p>
+  <p id="no-results" class="notes-empty" hidden><span data-lang="zh">没有匹配的书籍。</span><span data-lang="en" hidden>No matching books.</span></p>
   <p class="back-link"><a href="/">← 返回主页</a></p>
 </main>
   <footer class="site-footer"><p class="footer-signature"><span>© Wennan Cao</span><span class="footer-divider" aria-hidden="true">|</span><span>Reading notes, refined.</span></p></footer>

@@ -17,7 +17,9 @@
       button.setAttribute("aria-pressed", String(button.dataset.language === next));
     });
     if (search) {
-      search.placeholder = next === "zh" ? "搜索标题、摘要或书名" : "Search titles, summaries, or books";
+      search.placeholder = next === "zh"
+        ? search.dataset.placeholderZh || "搜索标题、摘要或书名"
+        : search.dataset.placeholderEn || "Search titles, summaries, or books";
     }
     localStorage.setItem("notes-language", next);
   }

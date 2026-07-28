@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cloudflare Pages Deploy"
+  short_description: "Publish this site through GitHub and Cloudflare Pages."
+  default_prompt: "Use $cloudflare-pages-deploy to publish the current website changes."
